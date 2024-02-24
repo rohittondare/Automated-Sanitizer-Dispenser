@@ -1,0 +1,25 @@
+With the help of this DIY kit, you can build your own automatic touchless hand sanitizer dispenser without the need for an microcontroller like arduino. 
+
+It is an easy to build kit and you can now protect yourself anytime.
+
+It is a ready to use DIY Kit for Automatic Hand Sanitizer Dispenser with both Timing and Range Control feature. Use our kit to make a dispenser unit now at your home.  The power supply adaptor of 9V 1A is provided. The kit should be connected as per the connections given in instruction manual for proper functioning.
+
+
+
+The kit Contains
+
+1 pc Soildered PCB With IR Sensor,LED Indicator, DC Jack
+1 Pc Mini Submersible Pump
+1 Pc 12V Adaptor
+1 pc potentiometer
+1 pc 40cm Pipe	
+
+
+Weight	100 g
+Dimensions	200 × 150 × 50 mm
+Operating Voltage	9V
+
+Adaptor	9V 1A
+
+Sensor Type	Infrared
+

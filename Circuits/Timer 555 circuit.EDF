@@ -1,0 +1,443 @@
+(PCB Timer_555_circuit
+ (parser
+  (host_cad ARES)
+  (host_version 8.6 SP2)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -72.49160 -7.66660 -15.12620 28.04160))
+  (boundary (path signal 0.20320 -72.39000 -7.56500 -15.22780 -7.56500 -15.22780 27.94000
+   -72.39000 27.94000 -72.39000 -7.56500))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction orthogonal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction off))
+  (grid via  0.63500)
+  (grid wire 0.63500)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA#0_SIGNAL
+   (spare
+    $VIA#0_POWER
+    PS5
+   )
+  )
+  (rule
+   (width 0.63500)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component "5 PIN POLARIZED SMD CONNECTOR_J3" (place J3 -22.73300 13.99540 front 90
+  ))
+  (component "DC JACK SMD_V1" (place V1 -64.77000 11.43000 front 0))
+  (component "100UF ELECTRO CAP SMD_C1" (place C1 -64.77000 -1.04140 front 90))
+  (component "100UF ELECTRO CAP SMD_C4" (place C4 -21.59000 2.54000 front 180))
+  (component "EXTERNAL LED PADS_L1" (place L1 -40.64000 -3.81000 front 0))
+  (component "SMD PADS FOR EXTERNAL POT_RV2" (place RV2 -50.80000 -3.81000 front 90
+  ))
+  (component "TIMER 555 SMD_TT" (place TT -41.91000 6.35000 front 180))
+  (component "7805 SMD_VREG1" (place VREG1 -29.21000 20.32000 front 90))
+  (component CAPC1005X55_C2 (place C2 -52.07000 23.76000 front 270))
+  (component CAPC1005X55_C3 (place C3 -52.07000 17.41000 front 270))
+  (component CAPC1005X55_C5 (place C5 -53.34000 11.06000 front 270))
+  (component "2N4007 DIODE SMD_D1" (place D1 -27.94000 15.24000 front 180))
+  (component RESC3216X65_R1 (place R1 -55.88000 4.17000 front 270))
+  (component RESC3216X65_R2 (place R2 -45.72000 14.33000 front -90))
+  (component RESC3225X60_R3 (place R3 -38.10000 12.70000 front 270))
+  (component RESC3225X60_R4 (place R4 -36.83000 3.81000 front 0))
+  (component "MMBT2222A TRANSISTOR SMD_T2" (place T2 -44.45000 19.68500 front 0))
+  (component "MMBT2222A TRANSISTOR SMD_T1" (place T1 -34.29000 0.00000 front 270))
+  (component RESC3216X65_R5 (place R5 -30.48000 8.89000 front 0))
+ )
+ (library
+  (image "5 PIN POLARIZED SMD CONNECTOR_J3" (side front)
+   (outline (rect TOP -2.38760 -5.05460 6.45160 0.67310))
+   (pin PS0 (rotate 0) 0 0.00000 0.00000)
+   (pin PS0 (rotate 0) 1 0.99060 0.00000)
+   (pin PS0 (rotate 0) 2 1.98120 0.00000)
+   (pin PS0 (rotate 0) 3 2.97180 0.00000)
+   (pin PS0 (rotate 0) 4 3.96240 0.00000)
+   (pin PS1 (rotate 0) 5 -1.29540 -3.68300)
+   (pin PS1 (rotate 0) 6 5.30860 -3.68300)
+  )
+  (image "DC JACK SMD_V1" (side front)
+   (outline (rect TOP -5.18160 -1.19380 10.26160 12.59840))
+   (pin PS2 (rotate 0) 0 0.00000 11.40460)
+   (pin PS2 (rotate 0) 1 0.00000 0.00000)
+   (pin PS2 (rotate 0) 2 6.09600 0.00000)
+   (pin PS2 (rotate 0) 3 6.09600 11.40460)
+   (pin PS3 (rotate 0) 4 -0.05080 5.68960)
+   (pin PS3 (rotate 0) 5 4.34340 5.68960)
+  )
+  (image "100UF ELECTRO CAP SMD_C1" (side front)
+   (outline (rect TOP -2.09550 -3.91160 9.48690 3.91160))
+   (pin PS4 (rotate 0) 0 0.00000 0.00000)
+   (pin PS4 (rotate 0) 1 7.39140 0.00000)
+  )
+  (image "100UF ELECTRO CAP SMD_C4" (side front)
+   (outline (rect TOP -2.09550 -3.91160 9.48690 3.91160))
+   (pin PS4 (rotate 0) 0 0.00000 0.00000)
+   (pin PS4 (rotate 0) 1 7.39140 0.00000)
+  )
+  (image "EXTERNAL LED PADS_L1" (side front)
+   (outline (rect TOP -0.59690 -0.99060 3.13690 0.99060))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image "SMD PADS FOR EXTERNAL POT_RV2" (side front)
+   (outline (rect TOP -0.99060 -5.67690 0.99060 0.59690))
+   (pin PS1 (rotate 90) 0 0.00000 0.00000)
+   (pin PS1 (rotate 90) 1 0.00000 -5.08000)
+   (pin PS1 (rotate 90) 2 0.00000 -2.54000)
+  )
+  (image "TIMER 555 SMD_TT" (side front)
+   (outline (rect TOP -0.27940 -0.50800 4.08940 5.58800))
+   (pin PS6 (rotate 0) 0 0.00000 0.00000)
+   (pin PS6 (rotate 0) 1 1.27000 0.00000)
+   (pin PS6 (rotate 0) 2 2.54000 0.00000)
+   (pin PS6 (rotate 0) 3 3.81000 0.00000)
+   (pin PS6 (rotate 0) 4 3.81000 5.08000)
+   (pin PS6 (rotate 0) 5 2.54000 5.08000)
+   (pin PS6 (rotate 0) 6 1.27000 5.08000)
+   (pin PS6 (rotate 0) 7 0.00000 5.08000)
+  )
+  (image "7805 SMD_VREG1" (side front)
+   (outline (rect TOP -0.86360 -1.39700 5.43560 9.29640))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS8 (rotate 0) 1 2.28600 6.24840)
+   (pin PS7 (rotate 0) 2 4.57200 0.00000)
+  )
+  (image CAPC1005X55_C2 (side front)
+   (outline (rect TOP -0.47500 -0.47500 1.37500 0.47500))
+   (pin PS9 (rotate -270) 0 0.00000 0.00000)
+   (pin PS9 (rotate -270) 1 0.90000 0.00000)
+  )
+  (image CAPC1005X55_C3 (side front)
+   (outline (rect TOP -0.47500 -0.47500 1.37500 0.47500))
+   (pin PS9 (rotate -270) 0 0.00000 0.00000)
+   (pin PS9 (rotate -270) 1 0.90000 0.00000)
+  )
+  (image CAPC1005X55_C5 (side front)
+   (outline (rect TOP -0.47500 -0.47500 1.37500 0.47500))
+   (pin PS9 (rotate -270) 0 0.00000 0.00000)
+   (pin PS9 (rotate -270) 1 0.90000 0.00000)
+  )
+  (image "2N4007 DIODE SMD_D1" (side front)
+   (outline (rect TOP -0.77470 -1.24460 4.71170 1.19380))
+   (pin PS10 (rotate 0) 0 0.00000 0.00000)
+   (pin PS10 (rotate 0) 1 3.93700 0.00000)
+  )
+  (image RESC3216X65_R1 (side front)
+   (outline (rect TOP -0.87500 -1.17500 3.77500 1.17500))
+   (pin PS11 (rotate 0) 0 0.00000 0.00000)
+   (pin PS11 (rotate 0) 1 2.90000 0.00000)
+  )
+  (image RESC3216X65_R2 (side front)
+   (outline (rect TOP -0.87500 -1.17500 3.77500 1.17500))
+   (pin PS11 (rotate 0) 0 0.00000 0.00000)
+   (pin PS11 (rotate 0) 1 2.90000 0.00000)
+  )
+  (image RESC3225X60_R3 (side front)
+   (outline (rect TOP -0.82500 -1.62500 3.82500 1.62500))
+   (pin PS12 (rotate 0) 0 0.00000 0.00000)
+   (pin PS12 (rotate 0) 1 3.00000 0.00000)
+  )
+  (image RESC3225X60_R4 (side front)
+   (outline (rect TOP -0.82500 -1.62500 3.82500 1.62500))
+   (pin PS12 (rotate 0) 0 0.00000 0.00000)
+   (pin PS12 (rotate 0) 1 3.00000 0.00000)
+  )
+  (image "MMBT2222A TRANSISTOR SMD_T2" (side front)
+   (outline (rect TOP -0.49530 -0.86360 2.88290 2.79400))
+   (pin PS13 (rotate 0) 0 0.00000 1.90500)
+   (pin PS13 (rotate 0) 1 0.00000 0.00000)
+   (pin PS13 (rotate 0) 2 2.38760 0.93980)
+  )
+  (image "MMBT2222A TRANSISTOR SMD_T1" (side front)
+   (outline (rect TOP -0.49530 -0.86360 2.88290 2.79400))
+   (pin PS13 (rotate 0) 0 0.00000 1.90500)
+   (pin PS13 (rotate 0) 1 0.00000 0.00000)
+   (pin PS13 (rotate 0) 2 2.38760 0.93980)
+  )
+  (image RESC3216X65_R5 (side front)
+   (outline (rect TOP -0.87500 -1.17500 3.77500 1.17500))
+   (pin PS11 (rotate 0) 0 0.00000 0.00000)
+   (pin PS11 (rotate 0) 1 2.90000 0.00000)
+  )
+  (padstack PS0 (absolute on) (shape (rect TOP -0.30480 -0.67310 0.30480 0.67310)))
+  (padstack PS1 (absolute on) (shape (rect TOP -0.59690 -0.99060 0.59690 0.99060)))
+  (padstack PS2 (absolute on) (shape (rect TOP -1.39700 -1.19380 1.39700 1.19380)))
+  (padstack PS3 (absolute on)
+   (shape (circle TOP 1.72720 0 0))
+   (shape (circle I1 1.72720 0 0))
+   (shape (circle I2 1.72720 0 0))
+   (shape (circle I3 1.72720 0 0))
+   (shape (circle I4 1.72720 0 0))
+   (shape (circle I5 1.72720 0 0))
+   (shape (circle I6 1.72720 0 0))
+   (shape (circle I7 1.72720 0 0))
+   (shape (circle I8 1.72720 0 0))
+   (shape (circle I9 1.72720 0 0))
+   (shape (circle I10 1.72720 0 0))
+   (shape (circle I11 1.72720 0 0))
+   (shape (circle I12 1.72720 0 0))
+   (shape (circle I13 1.72720 0 0))
+   (shape (circle I14 1.72720 0 0))
+   (shape (circle BOT 1.72720 0 0))
+  )
+  (padstack PS4 (absolute on) (shape (rect TOP -2.09550 -1.05410 2.09550 1.05410)))
+  (padstack PS5 (absolute on)
+   (shape (circle TOP 3.02260 0 0))
+   (shape (circle I1 3.02260 0 0))
+   (shape (circle I2 3.02260 0 0))
+   (shape (circle I3 3.02260 0 0))
+   (shape (circle I4 3.02260 0 0))
+   (shape (circle I5 3.02260 0 0))
+   (shape (circle I6 3.02260 0 0))
+   (shape (circle I7 3.02260 0 0))
+   (shape (circle I8 3.02260 0 0))
+   (shape (circle I9 3.02260 0 0))
+   (shape (circle I10 3.02260 0 0))
+   (shape (circle I11 3.02260 0 0))
+   (shape (circle I12 3.02260 0 0))
+   (shape (circle I13 3.02260 0 0))
+   (shape (circle I14 3.02260 0 0))
+   (shape (circle BOT 3.02260 0 0))
+  )
+  (padstack PS6 (absolute on) (shape (rect TOP -0.27940 -0.50800 0.27940 0.50800)))
+  (padstack PS7 (absolute on) (shape (rect TOP -0.74930 -1.39700 0.74930 1.39700)))
+  (padstack PS8 (absolute on) (shape (rect TOP -3.14960 -3.04800 3.14960 3.04800)))
+  (padstack PS9 (absolute on) (shape (rect TOP -0.30480 -0.30480 0.30480 0.30480)))
+  (padstack PS10 (absolute on) (shape (rect TOP -0.77470 -0.83820 0.77470 0.83820)))
+  (padstack PS11 (absolute on) (shape (rect TOP -0.57150 -0.90170 0.57150 0.90170)))
+  (padstack PS12 (absolute on) (shape (rect TOP -0.54610 -1.34620 0.54610 1.34620)))
+  (padstack PS13 (absolute on) (shape (rect TOP -0.49530 -0.34290 0.49530 0.34290)))
+  (padstack $VIA#0_SIGNAL (absolute on)
+   (shape (circle TOP 1.52400 0 0))
+   (shape (circle I1 1.52400 0 0))
+   (shape (circle I2 1.52400 0 0))
+   (shape (circle I3 1.52400 0 0))
+   (shape (circle I4 1.52400 0 0))
+   (shape (circle I5 1.52400 0 0))
+   (shape (circle I6 1.52400 0 0))
+   (shape (circle I7 1.52400 0 0))
+   (shape (circle I8 1.52400 0 0))
+   (shape (circle I9 1.52400 0 0))
+   (shape (circle I10 1.52400 0 0))
+   (shape (circle I11 1.52400 0 0))
+   (shape (circle I12 1.52400 0 0))
+   (shape (circle I13 1.52400 0 0))
+   (shape (circle I14 1.52400 0 0))
+   (shape (circle BOT 1.52400 0 0))
+  )
+  (padstack $VIA#0_POWER (absolute on)
+   (shape (circle TOP 1.52400 0 0))
+   (shape (circle I1 1.52400 0 0))
+   (shape (circle I2 1.52400 0 0))
+   (shape (circle I3 1.52400 0 0))
+   (shape (circle I4 1.52400 0 0))
+   (shape (circle I5 1.52400 0 0))
+   (shape (circle I6 1.52400 0 0))
+   (shape (circle I7 1.52400 0 0))
+   (shape (circle I8 1.52400 0 0))
+   (shape (circle I9 1.52400 0 0))
+   (shape (circle I10 1.52400 0 0))
+   (shape (circle I11 1.52400 0 0))
+   (shape (circle I12 1.52400 0 0))
+   (shape (circle I13 1.52400 0 0))
+   (shape (circle I14 1.52400 0 0))
+   (shape (circle BOT 1.52400 0 0))
+  )
+ )
+ (network
+  (net "#00003"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins C1-0 RV2-1 TT-5 TT-6)
+  )
+  (net "#00005"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J3-1 D1-1 T2-2)
+  )
+  (net "#00008"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins R2-0 T2-0)
+  )
+  (net "#00013"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins TT-2 R2-1 R5-0)
+  )
+  (net "#00015"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins C4-1 TT-1 R3-1 R4-0)
+  )
+  (net "#00018"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins TT-4 C5-1)
+  )
+  (net "#00019"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins RV2-0 RV2-2 R1-1)
+  )
+  (net "#00022"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins L1-1 T1-2)
+  )
+  (net "#00023"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins T1-0 R5-1)
+  )
+  (net "5V"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_POWER
+    )
+   )
+   (pins J3-4 L1-0 TT-3 TT-7 VREG1-2 C3-1 R1-0 R3-0)
+  )
+  (net "GND"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_POWER
+    )
+   )
+   (pins J3-3 V1-1 C1-1 TT-0 VREG1-1 C2-0 C3-0 C5-0 T2-1 T1-1)
+  )
+  (net "SENSOR IN"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins J3-2 C4-0 R4-1)
+  )
+  (net "VCC/VDD"
+   (circuit
+    (use_layer TOP)
+    (use_via
+     $VIA#0_POWER
+    )
+   )
+   (pins J3-0 V1-0 VREG1-0 C2-1 D1-0)
+  )
+  (class POWER
+   "5V"
+   "GND"
+   "VCC/VDD"
+   (rule
+    (width 0.63500)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+  (class SIGNAL
+   "#00003"
+   "#00005"
+   "#00008"
+   "#00013"
+   "#00015"
+   "#00018"
+   "#00019"
+   "#00022"
+   "#00023"
+   "SENSOR IN"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.63500)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+  (via PS5 -69.85000 25.40000 (net {NC-1}) (type protect))
+  (via PS5 -69.85000 -5.08000 (net {NC-2}) (type protect))
+  (via PS5 -17.78000 -5.08000 (net {NC-3}) (type protect))
+  (via PS5 -17.78000 25.40000 (net {NC-4}) (type protect))
+ )
+)

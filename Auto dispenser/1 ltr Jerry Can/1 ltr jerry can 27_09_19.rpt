@@ -1,0 +1,75 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Processor Status Report
+*****************************************************************
+=================================================================
+General Information
+=================================================================
+Sending System Product I.D.  : C:\Users\Rupali\AppData\Local\Temp\Rupa11DC00EEi2h4.prt
+Receiving System Product I.D.: C:\Users\Rupali\AppData\Local\Temp\Rupa11DC00EEi2h4.prt
+File Name                    : C:\Users\Rupali\Desktop\AP\1 ltr jerry can 27_09_19.igs
+Sending System               : NX V10.0
+Preprocessor Version         : SIEMENS PLM Software NX 10.0
+File Creation Date           : 20190927.224329
+Model Creation Date          : 20190927.224300
+Units                        : MM
+Model Space Scale            : 1
+Author                       : 
+Organization                 : 
+
+
+=================================================================
+Entity Processing Information
+=================================================================
+ERROR:   DE#  2851, TYPE   144: Problem encountered in outer trimming loop.
+WARNING: DE#  2851, TYPE   144: Error repaired by using 3D trim curves.
+ERROR:   DE#  2943, TYPE   144: Problem encountered in outer trimming loop.
+WARNING: DE#  2943, TYPE   144: Error repaired by using 3D trim curves.
+ERROR:   DE#  2983, TYPE   144: Problem encountered in outer trimming loop.
+WARNING: DE#  2983, TYPE   144: Error repaired by using 3D trim curves.
+
+
+=================================================================
+Precision analysis of IGES file:
+=================================================================
+  Most prevalent number of significant digits:              14
+  Highest number of significant digits:                     14
+  Average number of significant digits:                12.5572
+  Maximum distance to origin:                          130.871
+  Minimum distance to origin:                          27.8509
+  Effective number of significant digits:              13.8123
+
+
+=================================================================
+Entity Summary
+=================================================================
+-----------------------------------------------------------------
+Type Name                                         Count Converted
+---- ----                                         ----- ---------
+100  Arc                                            390       390
+102  Composite curve                                502       502
+104  Conic arc                                      121       121
+108  Plane                                           32        32
+110  Line                                           470       470
+124  Transformation matrix                          239       239
+126  Rational B-spline curve                       1215      1215
+128  Rational B-spline surface                      257       257
+142  Curve on a parametric surface                  256       256
+144  Trimmed parametric surface                     253       253
+314  Color definition                                 1         1
+406  Property                                         8         8
+410  View                                             8         0
+_________________________________________________________________
+
+
+=================================================================
+Result Summary
+=================================================================
+SolidWorks Feature Type                Count
+-----------------------                -----
+Solid feature(s)                       1
+Surface feature(s)                     0
+Curve/Sketch feature(s)                0
+--------------------------------------------
+Start time: Sunday, June 14, 2020 19:48:06
+Finish time: Sunday, June 14, 2020 19:48:09
+Processing time: 0 days, 00 hours, 00 mins, 03 secs
